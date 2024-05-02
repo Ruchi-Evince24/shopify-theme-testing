@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_fCNEQK": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_GqmgLt": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Shipping Policy<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_tCqAPN": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_Rx8Wk9": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GqmgLt",
+        "text_tCqAPN",
+        "buttons_Rx8Wk9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MH_May_2021-220-1024x576_f53fd0e4-8daf-4a0e-b392-c963ff3a7e42.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_fCNEQK"
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_rxGaEQ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_nKz9LL": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>The Kasai Story<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_4Fm8it": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nKz9LL",
+        "text_4Fm8it"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/408010054_18397678918010711_3365154905023524297_n-e1703719623722.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_7QfdtJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_kPEBLD": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Experience The Best In Charcoal Cooking<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_9cJrU3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kasai Konro charcoal grills are inspired by world famous Japanese design. They’re a traditional heat source used to make delicious meats, fish, and vegetables.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_VxQt8t": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY THE KASAI",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kPEBLD",
+        "text_9cJrU3",
+        "button_VxQt8t"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MH_May_2021-217-1024x576.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wQaKd9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_riaQmq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Our Ambassador<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_eCQRCk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Michelin star Head Chef, Tommy Banks, uses our Kasai while cooking at home, and in both of his Michelin Star restaurants; The Black Swan at Oldstead, and Roots in York. <\/p><p>“I’ve been delighted to work as brand ambassador for the Kasai Grill. I really love this style of cooking. It’s been great being able to be part of the team, working to develop not only the product but the accessories as well, as I feel these really take the Kasai to the next level.”<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_jgCHVw": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY THE KASAI",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_riaQmq",
+        "text_eCQRCk",
+        "button_jgCHVw"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Link_jpg_45a38a4d-4f0a-4854-a8a9-b056e1897d2b.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "key_zxAJ6a": {
+      "type": "key",
+      "settings": {
+        "heading": "Key Features",
+        "feature1_title": "Speicalist Design",
+        "feature1_paragraph": "Compact, versatile, and designed for commercial kitchens and home use. The iconic structure of the Kasai uses a special insulating material that reflects heat back into the grill, allowing for a consistent temperature throughout cooking. It relies on bricks which are each fitted together precisely by hand for a strong, tighter, more fire-resistant quality product.",
+        "feature2_title": "Long burning charcoal",
+        "feature2_paragraph": "It’s recommended to use the Kasai with Binchotan charcoal due to its long burning properties and its ability to seal in natural flavours without imparting any other aromas. Binchotan produces inimitable smokiness when cooking, without the traditional BBQ’s bitter and burnt flavours. Once finished, the coals can be cooled, left to dry and used again.",
+        "feature3_title": "Sustainable cooking",
+        "feature3_paragraph": "Once the vermiculite tiles reach their end of life, there’s no need to replace the Kasai. We can offer you replacement tiles, and the old ones can be ground and used by gardeners. They’re an effective soil conditioner that can loosen compacted soil, provide drainage, and hold three to four times its weight in water.",
+        "image": "shopify:\/\/shop_images\/Rectangle_28_9283b33c-6bbb-47b1-be96-5ef7fdd896a0.png",
+        "button_url": "",
+        "button_text": "BUY THE KASAI"
+      }
+    },
+    "image_banner_86dBTJ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_MyJAKr": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Japanese Inspired. Truly British.<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_EY9R9E": {
+          "type": "text",
+          "settings": {
+            "text": "Kasai Konro charcoal grills are inspired by world famous Japanese design. They’re a traditional heat source used to make delicious meats, fish, and vegetables.",
+            "text_style": "body"
+          }
+        },
+        "buttons_fixVkn": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "BUY THE KASAI",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MyJAKr",
+        "text_EY9R9E",
+        "buttons_fixVkn"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/kasai-grill-hoallo-lap-700.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "kasai_collection_L7Xifb": {
+      "type": "kasai_collection",
+      "settings": {
+        "kasai_collection_heading": "Shop The Kasai Collection",
+        "paragraph": ""
+      }
+    },
+    "image_with_text_heM3t9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ngxQdU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Cooking with a conscience<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_tqBWxb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I really love this style of cooking. It’s been great being able to be part of the team, working to develop not only the product but the accessories as well, as I feel these really take the Kasai to the next level.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_TpFy6J": {
+          "type": "button",
+          "settings": {
+            "button_label": "BUY THE KASAI",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ngxQdU",
+        "text_tqBWxb",
+        "button_TpFy6J"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Zero-Budget-National-Farming.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_rxGaEQ",
+    "image_with_text_7QfdtJ",
+    "image_with_text_wQaKd9",
+    "key_zxAJ6a",
+    "image_banner_86dBTJ",
+    "kasai_collection_L7Xifb",
+    "image_with_text_heM3t9"
+  ]
+}

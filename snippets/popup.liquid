@@ -1,0 +1,63 @@
+{% if settings.popup_enabled %}
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <div class="content">
+                {{ settings.popup_text }}
+            </div>
+            <button id="close">Okay</button>
+        </div>
+    </div>
+{% endif %}
+
+<script src="{{ 'popup.js' | asset_url }}"></script>
+
+
+<style>
+.overlay {
+  position: fixed;
+  top: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 500ms;
+  opacity: 1; 
+  
+}
+ 
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+} 
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  color: black;
+  font-size: 18px;
+} 
+.popup button {
+  cursor: pointer;
+  background-color: #2CACEE;
+  color: white;
+  border: none; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  float: none;
+  margin: 0 auto;
+  display: block;
+  width:80px;
+  height:40px;
+}
+ 
+  @media screen and (max-width: 700px){
+  
+  .popup{
+    width: 70%;
+  }
+}
+</style>

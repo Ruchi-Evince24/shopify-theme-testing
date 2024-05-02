@@ -1,0 +1,58 @@
+<!-- Welcome section starts -->
+<section class="menu_page">
+  <div class="container">
+    <div class="menu-page-heading">
+      <h2>{{ section.settings.menu-page-heading }}</h2>
+      <a href="{{ collections.all.url }}">Shop All</a>
+    </div>
+    <div class="menu-outer">
+      {% for product in collections[section.settings.collection].products %}
+        <div class="product_image">
+          <img src="{{ product.featured_image.src | img_url: 'medium' }}" alt="{{ product.title }}">
+           <h5>{{ product.title }}</h5>
+        </div>
+                 
+        
+      {% endfor %}
+    </div>
+
+ 
+     
+  </div>
+</section>
+<!-- Welcome section ends -->
+
+{% schema %}
+{
+  "name": "Menu text Page",
+  "settings": [
+    {
+      "type": "text",
+      "id": "menu-page-heading",
+      "label": "Heading",
+      "default": "Featured Products" // Default heading value
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Select Collection"
+    }
+    
+  ],
+  "presets": [
+    {
+      "name": "Menu Text Page",
+      "category": "ADVANCED LAYOUT"
+    }
+  ]
+}
+{% endschema %}
+
+
+{% stylesheet %}
+
+{% endstylesheet %}
+
+{% javascript %}
+
+{% endjavascript %}

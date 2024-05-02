@@ -1,0 +1,139 @@
+<!-- Welcome section starts -->
+<section class="key_pro">
+  <div class="container">
+    <div class="key-pro-outter">
+      <!-- Heading and Title Block -->
+      <div class="key_pro_block">
+              
+        <h1><b>{{ section.settings.heading }}</b></h1>
+        <p>{{ section.settings.paragraph }}</p>
+        <h3 id="feature1_title">{{ section.settings.feature1_title }}</h3>
+        <p id="feature1_paragraph" style="display: none;">{{ section.settings.feature1_paragraph }}</p>
+        <h3 id="feature2_title">{{ section.settings.feature2_title }}</h3>
+        <p id="feature2_paragraph" style="display: none;">{{ section.settings.feature2_paragraph }}</p>
+         <h3 id="feature3_title">{{ section.settings.feature3_title }}</h3>
+        <p id="feature3_paragraph" style="display: none;">{{ section.settings.feature3_paragraph }}</p>
+        <h3 id="feature4_title">{{ section.settings.feature4_title }}</h3>
+        <p id="feature4_paragraph" style="display: none;">{{ section.settings.feature4_paragraph }}</p>
+      </div>
+
+
+      <!-- Image Section -->
+      <div class="image-section">
+        <img src="{{ section.settings.image | img_url: 'master' }}" alt="Welcome Image">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Welcome section ends -->
+{% schema %}
+
+{
+  "name": "Key product Feature",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph",
+      "label": "Paragraph"
+    },
+    {
+      "type": "text",
+      "id": "feature1_title",
+      "label": "Feature 1 Title"
+    },
+    {
+      "type": "textarea",
+      "id": "feature1_paragraph",
+      "label": "Feature 1 Paragraph"
+    },
+    {
+      "type": "text",
+      "id": "feature2_title",
+      "label": "Feature 2 Title"
+    },
+    {
+      "type": "textarea",
+      "id": "feature2_paragraph",
+      "label": "Feature 2 Paragraph"
+    },
+    {
+      "type": "text",
+      "id": "feature3_title",
+      "label": "Feature 3 Title"
+    },
+    {
+      "type": "textarea",
+      "id": "feature3_paragraph",
+      "label": "Feature 3 Paragraph"
+    },
+    {
+      "type": "text",
+      "id": "feature4_title",
+      "label": "Feature 4 Title"
+    },
+    {
+      "type": "textarea",
+      "id": "feature4_paragraph",
+      "label": "Feature 4 Paragraph"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Key Product Feature",
+      "category": "ADVANCED LAYOUT"
+    }
+  ]
+}
+{% endschema %}
+{% javascript %}
+ document.addEventListener("DOMContentLoaded", function() {
+    var heading = document.getElementById("feature1_title");
+    var paragraph = document.getElementById("feature1_paragraph");
+    var heading1 = document.getElementById("feature2_title");
+    var paragraph1 = document.getElementById("feature2_paragraph");
+    var heading2 = document.getElementById("feature3_title");
+    var paragraph2 = document.getElementById("feature3_paragraph");
+   var heading3 = document.getElementById("feature4_title");
+    var paragraph3 = document.getElementById("feature4_paragraph");
+   
+    // Toggle paragraph visibility when heading is clicked
+    heading.addEventListener("click", function() {
+      if (paragraph.style.display === "none" || paragraph.style.display === "") {
+        paragraph.style.display = "block";
+      } else {
+        paragraph.style.display = "none";
+      }
+    });
+   heading1.addEventListener("click", function() {
+      if (paragraph1.style.display === "none" || paragraph1.style.display === "") {
+        paragraph1.style.display = "block";
+      } else {
+        paragraph1.style.display = "none";
+      }
+    });
+   heading2.addEventListener("click", function() {
+      if (paragraph2.style.display === "none" || paragraph2.style.display === "") {
+        paragraph2.style.display = "block";
+      } else {
+        paragraph2.style.display = "none";
+      }
+    });
+   heading3.addEventListener("click", function() {
+      if (paragraph3.style.display === "none" || paragraph3.style.display === "") {
+        paragraph3.style.display = "block";
+      } else {
+        paragraph3.style.display = "none";
+      }
+    });
+  });
+{% endjavascript %}

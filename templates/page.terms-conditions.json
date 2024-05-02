@@ -1,0 +1,64 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_hFWiLz": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fiKRaB": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Terms & Conditions<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Cg3yQf": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_6pjQEF": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fiKRaB",
+        "text_Cg3yQf",
+        "buttons_6pjQEF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MH_May_2021-220-1024x576_d220aceb-751d-4c0a-97f3-227bc6955091.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_hFWiLz"
+  ]
+}

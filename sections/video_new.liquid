@@ -1,0 +1,45 @@
+<section class="video__content_section">
+   <div class="video-menu-section">
+  <div class="video-menu-container"  style="height: 250px;">
+    <video muted autoplay playsinline loop>
+      <source src="{{ section.settings.url | append: '.mp4' }}" type="video/mp4">
+    </video>
+    <div class="video_menu_heading">
+      <p>{{ section.settings.paragraph }}</p>
+      <a href="{{ section.settings.button_url }}" class="button">{{ section.settings.button_text }}</a>
+    </div>
+   
+  </div>
+</div>
+</section>
+{% schema %}
+{
+  "name": "Menu video Page",
+  "settings": [
+  {
+      "type": "text",
+      "id": "url",
+      "label": "Video URL",
+      "default": "https://example.com/default-video.mp4"
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph",
+      "label": "Paragraph Text"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Button"
+    }
+    
+  ],
+  "presets": [
+    {
+      "name": "Menu video Page",
+      "category": "ADVANCED LAYOUT"
+    }
+  ]
+}
+{% endschema %}

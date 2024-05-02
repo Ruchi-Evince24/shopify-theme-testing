@@ -1,0 +1,71 @@
+<section class="menu_accessories_page">
+  <div class="container">
+    <div class="menu-accessories-heading">
+      <h2>{{ section.settings.menu-accessories-heading }}</h2>
+      <a href="{{ collections.all.url }}">Shop All</a>
+    </div>
+   <div class="accessories_collection">
+      <div class="menu-accessories-outer">
+      {% assign products_per_row = 4 %}
+      {% assign product_count = 0 %}
+      <div class="row">
+        {% for product in collections[section.settings.collection].products %}
+          <div class="col-md-3">
+            <div class="product_title">
+              <h5>{{ product.title }}</h5>
+            </div>
+          </div>
+          {% assign product_count = product_count | plus: 1 %}
+          {% if product_count == products_per_row %}
+            {% assign product_count = 0 %}
+            </div>
+            {% unless forloop.last %}
+              {% if forloop.index != collections[section.settings.collection].products.size %}
+                <div class="row">
+              {% endif %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="menu-accessories-image">
+        <img src="{{ section.settings.image | img_url: 'master' }}" alt="Welcome Image">
+    </div>
+   </div>
+  </div>
+</section>
+
+<!-- Welcome section ends -->
+
+{% schema %}
+{
+  "name": "Menu Accessories Page",
+  "settings": [
+    {
+      "type": "text",
+      "id": "menu-accessories-heading",
+      "label": "Heading",
+      "default": "Featured Products" // Default heading value
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Select Collection"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+    
+  ],
+  "presets": [
+    {
+      "name": "Menu Accessories Page",
+      "category": "ADVANCED LAYOUT"
+    }
+  ]
+}
+{% endschema %}
+
+
