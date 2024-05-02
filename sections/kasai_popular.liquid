@@ -1,0 +1,97 @@
+<!-- Welcome section starts -->
+<section class="kasai_popular">
+  <div class="container">
+    <div class="kasai-heading">
+      <h2><b>{{ section.settings.kasai_heading }}</b></h2>
+    <a href="{{ collections.all.url }}">View All</a>
+    </div>
+    <div class="kasai-outer">
+      <div class="kasai_slider">
+        {% for product in collections.all.products limit: 4 %}
+          <div class="kasai_slide">
+            <img src="{{ product.featured_image.src | img_url: 'medium' }}" alt="{{ product.title }}">
+                <form action="/cart/add" method="post" class="add-to-cart-form">
+    <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+    <div class="add-to-cart-container">
+      <input type="submit" value="Add to Cart" class="add-to-cart-button">
+    </div>
+  </form>
+            <h4><b>{{ product.title }}</b></h4>
+            <p>{{ product.description }}</p> 
+            <p>{{ product.price | money }}</p>
+         
+          </div>
+        {% endfor %}
+      </div>
+      <div class="view-all-button">
+       
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Welcome section ends -->
+
+{% schema %}
+{
+  "name": "Popular Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "kasai_heading",
+      "label": "Heading",
+      "default": "Featured Products" // Default heading value
+    }
+  ],
+  "presets": [
+    {
+      "name": "Popular Section",
+      "category": "ADVANCED LAYOUT"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+.product-slider {
+  /* Your product slider section styles */
+}
+
+.kasai-outer {
+  /* Slider outer container styles */
+}
+
+.kasai_slider {
+  display: flex;
+}
+
+.kasai_slide {
+  /* Individual slide styles */
+}
+
+.view-all-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#view-all-btn {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none; /* Hide products */
+}
+
+{% endstylesheet %}
+
+{% javascript %}
+
+{% endjavascript %}

@@ -1,0 +1,276 @@
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+
+{% assign collection_limit_desktop = section.settings.collection_limit_desktop %}
+{% assign collection_limit_mobile = section.settings.collection_limit_mobile %}
+{% assign cell_align = section.settings.cell_align %}
+{% assign wrap_around = section.settings.wrap_around %}
+{% assign autoplay_enabled = section.settings.autoplay %}
+
+<p>{{ section.settings.title }}</p>
+
+<div class="carousel-wrapper">
+    <div class="flickity-section__carousel carousel-{{ section.id }} text-center" data-flickity='{
+        "cellAlign": "{{ cell_align }}",
+        "pageDots": false,
+        "freeScroll": false,
+        "contain": true,
+        "wrapAround": {{ wrap_around | default: false }},
+        "autoPlay": {{ autoplay_enabled | default: false }}
+        
+    }'>
+{% for block in section.blocks %}
+    {% if block.type == 'selected_product' %}
+        <div class="product">
+            <img src="{{ block.settings.product_picker.featured_image | product_img_url: 'medium' }}" alt="{{ product.title }}">
+            <h2>{{ block.settings.product_picker.title }}</h2>
+            <p>{{ block.settings.product_picker.price }}</p>
+        </div>
+    {% elsif block.type == 'custom_product' %}
+        <div class="product">          
+            <img src="{{ block.settings.custom_product_url}}" >
+            <h4>{{ block.settings.title1}}</h4>
+        </div>
+    {% endif %}
+{% endfor %}
+    </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Product Display",
+  "settings": [
+    {
+
+"type": "text",
+
+"id": "title",
+
+"label": "Title",
+
+"default": "Featured Collection Slider"
+
+},
+
+{
+      "type": "range",
+      "id": "collection_limit_desktop",
+      "min": 2,
+      "max": 50,
+      "step": 1,
+      "unit": ".",
+      "label": "Desktop - How many products to show",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "collection_limit_mobile",
+      "min": 1,
+      "max": 25,
+      "step": 1,
+      "unit": ".",
+      "label": "Mobile - How many products to show",
+      "default": 1
+    },
+
+
+{
+
+"type": "select",
+
+"id": "cell_align",
+
+"label": "Slide Alignment",
+
+"options": [
+
+{
+
+"value": "center",
+
+"label": "Center"
+
+},
+
+{
+
+"value": "left",
+
+"label": "Left"
+
+}
+
+],
+
+"default": "center"
+
+},
+{
+  "type": "checkbox",
+  "id": "autoplay",
+  "label": "Enable Autoplay",
+  "default": false
+},
+
+{
+
+"type": "select",
+
+"id": "cell_width",
+
+"label": "Choose number of slides to show on start",
+
+"options": [
+
+{
+
+"value": "25%",
+
+"label": "Four"
+
+},
+
+{
+
+"value": "20%",
+
+"label": "Five"
+
+},
+
+{
+
+"value": "16.6666667%",
+
+"label": "Six"
+
+},
+
+{
+
+"value": "12.5%",
+
+"label": "Eight"
+
+}
+
+],
+
+"default": "25%"
+
+},
+
+{
+
+"type": "radio",
+
+"id": "wrap_around",
+
+"label": "Enable Wrap Around (endless scrolling)",
+
+"options": [
+
+{
+
+"value": "true",
+
+"label": "True"
+
+},
+
+{
+
+"value": "false",
+
+"label": "False"
+
+}
+
+],
+
+"default": "true"
+   
+}
+  ],
+  "blocks": [
+    {
+      "type": "selected_product",
+      "name": "Selected Products",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product_picker",
+          "label": "Choose a product"
+        }
+      ]
+    },
+
+    {
+      "type": "custom_product",
+      "name": "Custom Product",
+      "settings": [
+        {
+          "type": "url",
+          "id": "custom_product_url",
+          "label": "Custom Product URL",
+          "info": "Enter the URL of the custom product."
+        },
+  {
+    
+"type": "text",
+
+"id": "title1",
+
+"label": "Custom Product Title",
+
+"default": "Featured Collection Slider"
+
+}
+
+  
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Slider",
+      "category": "Slider"
+    }
+  ]
+}
+{% endschema %}
+{% javascript %}
+
+document.addEventListener('DOMContentLoaded', function () {
+    var carouselElement = document.querySelector('.flickity-section__carousel');
+    var flickityOptions = JSON.parse(carouselElement.dataset.flickity);
+
+    if (flickityOptions.loop === false) {
+        flickityOptions.wrapAround = false;
+        flickityOptions.cellAlign = 'right'; // Set cellAlign to left for left-to-right movement
+        var flickity = new Flickity(carouselElement, flickityOptions);
+    }
+});
+{% endjavascript %}
+
+{% stylesheet %}
+/* Desktop Styles */
+@media screen and (min-width: 768px) {
+  .carousel-wrapper .flickity-section__carousel {
+    /* Set the number of products to display for desktop */
+    grid-template-columns: repeat({{ section.settings.collection_limit_desktop }}, 1fr);
+  }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 767px) {
+  .carousel-wrapper .flickity-section__carousel {
+    /* Set the number of products to display for mobile */
+    grid-template-columns: repeat({{ section.settings.collection_limit_mobile }}, 1fr);
+  }
+}
+{% endstylesheet %}

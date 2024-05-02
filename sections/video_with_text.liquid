@@ -1,0 +1,76 @@
+<!-- Welcome section starts -->
+<section class="videotext_pro">
+  <div class="videotext_container">
+    <div class="video-text-outter">
+      <!-- Heading and Title Block -->
+       
+      <div class="video_block">
+  <video id="myVideo" muted playsinline loop>
+    <source src="{{ section.settings.url | append: '.mp4' }}" type="video/mp4">
+  </video>
+        <div class="video_button">
+  <button id="playButton">Play/Pause</button>
+        </div>
+</div>
+      <div class="video_text_block">
+        <h1><b>{{ section.settings.heading }}</b></h1>
+        <p>{{ section.settings.paragraph }}</p>
+        <a href="#" id="playButton" class="button">{{ section.settings.button_text }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Welcome section ends -->
+{% schema %}
+{
+  "name": "Key product Feature",
+  "settings": [
+    {
+      "type": "text",
+      "id": "url",
+      "label": "Video URL",
+      "default": "https://example.com/default-video.mp4"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "paragraph",
+      "label": "Paragraph"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video with Text",
+      "category": "ADVANCED LAYOUT"
+    }
+  ]
+}
+{% endschema %}
+{% javascript %}
+document.addEventListener("DOMContentLoaded", function() {
+  var video = document.getElementById("myVideo");
+  var playButton = document.getElementById("playButton");
+
+  playButton.addEventListener("click", function() {
+    if (video.paused) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  });
+});
+{% endjavascript %}
