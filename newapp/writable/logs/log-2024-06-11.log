@@ -1,0 +1,180 @@
+CRITICAL - 2024-06-11 05:02:41 --> ErrorException: Undefined array key "access_token"
+[Method: GET, Route: verifyInstall]
+in APPPATH/Controllers/Install.php on line 83.
+ 1 APPPATH/Controllers/Install.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Install->getAuthorizationCode()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 05:19:16 --> ParseError: syntax error, unexpected token "else"
+[Method: GET, Route: verifyInstall]
+in APPPATH/Controllers/Install.php on line 107.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 4 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 05:19:39 --> ParseError: syntax error, unexpected token "else"
+[Method: GET, Route: verifyInstall]
+in APPPATH/Controllers/Install.php on line 107.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 4 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 05:19:57 --> ParseError: Unclosed '{' on line 9
+[Method: GET, Route: verifyInstall]
+in APPPATH/Controllers/Install.php on line 115.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 4 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 05:19:58 --> ParseError: Unclosed '{' on line 9
+[Method: GET, Route: verifyInstall]
+in APPPATH/Controllers/Install.php on line 115.
+ 1 VENDORPATH/composer/ClassLoader.php(427): Composer\Autoload\{closure}()
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass()
+ 3 SYSTEMPATH/CodeIgniter.php(887): class_exists()
+ 4 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 05:20:31 --> ErrorException: Undefined array key "access_token"
+[Method: GET, Route: verifyInstall]
+in APPPATH/Controllers/Install.php on line 83.
+ 1 APPPATH/Controllers/Install.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Install->getAuthorizationCode()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 05:23:26 --> ErrorException: Undefined array key "access_token"
+[Method: GET, Route: verifyInstall]
+in APPPATH/Controllers/Install.php on line 83.
+ 1 APPPATH/Controllers/Install.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Install->getAuthorizationCode()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 05:26:00 --> Error: Class "App\Models\UserModel" not found
+[Method: POST, Route: register]
+in APPPATH/Controllers/Home.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->insert()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 05:27:17 --> Error: Class "App\Controllers\StoreModel" not found
+[Method: POST, Route: register]
+in APPPATH/Controllers/Home.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->insert()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 05:28:02 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: register]
+in SYSTEMPATH/BaseModel.php on line 826.
+ 1 SYSTEMPATH/BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Home.php(27): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 07:45:20 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: register]
+in SYSTEMPATH/BaseModel.php on line 826.
+ 1 SYSTEMPATH/BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Home.php(27): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 07:47:17 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: register]
+in SYSTEMPATH/BaseModel.php on line 826.
+ 1 SYSTEMPATH/BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Home.php(27): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 07:59:54 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: register]
+in SYSTEMPATH/BaseModel.php on line 826.
+ 1 SYSTEMPATH/BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH/Model.php(791): CodeIgniter\BaseModel->insert()
+ 3 APPPATH/Controllers/Home.php(27): CodeIgniter\Model->insert()
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->insert()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-11 08:03:11 --> ErrorException: Cannot redeclare App\Models\StoreModel::$table
+[Method: POST, Route: register]
+in APPPATH/Models/StoreModel.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-11 08:04:54 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: register]
+in APPPATH/Models/UserModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-11 08:05:31 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: register]
+in APPPATH/Models/UserModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-11 08:05:45 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: register]
+in APPPATH/Models/UserModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-11 08:11:54 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: register]
+in APPPATH/Models/UserModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-11 08:12:51 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: register]
+in APPPATH/Models/UserModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-11 08:15:43 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: register]
+in APPPATH/Models/UserModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-11 08:16:33 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: register]
+in APPPATH/Models/UserModel.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-11 08:19:01 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: register]
+in APPPATH/Models/UserModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-11 08:26:59 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: register]
+in APPPATH/Models/UserModel.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

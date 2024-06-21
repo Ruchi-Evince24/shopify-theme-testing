@@ -1,0 +1,387 @@
+CRITICAL - 2024-06-03 10:42:34 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 10:42:36 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 10:42:36 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 10:42:37 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 10:43:15 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 10:43:16 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 10:43:17 --> Error: Class "App\Controllers\UserModel" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 19.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:10:08 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:10:10 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:10:10 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:10:10 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:10:59 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:10:59 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:11:00 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:11:00 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:11:00 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:11:00 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:11:00 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:11:01 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:11:01 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:11:01 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:12:09 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:12:10 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:12:11 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:12:11 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:12:12 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:12:12 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:12:58 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:12:58 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:12:59 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:12:59 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:13:00 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:13:00 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:13:00 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:13:00 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:13:00 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:13:04 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:13:04 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:13:05 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:13:05 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:13:05 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:13:05 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-06-03 13:13:05 --> Error: Class "App\Controllers\Database" not found
+[Method: GET, Route: register]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
