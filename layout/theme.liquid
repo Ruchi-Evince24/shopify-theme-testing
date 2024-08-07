@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
     <meta charset="utf-8">
@@ -280,6 +280,19 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    <!-- BEGIN MerchantWidget Code -->
+<script id='merchantWidgetScript'
+        src="https://www.gstatic.com/shopping/merchant/merchantwidget.js"
+        defer>
+</script>
+<script type="text/javascript">
+  merchantWidgetScript.addEventListener('load', function () {
+    merchantwidget.start({
+     position: 'RIGHT_BOTTOM'
+   });
+  });
+</script>
+<!-- END MerchantWidget Code --
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
